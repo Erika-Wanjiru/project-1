@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Erika Wanjiru">
+    <meta name="description" content="About The Little Taco Shop">
+    <title>About EJS</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__h1">Erika Jewellery Store</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/#menu">Items</a>
+                </li>
+                <li>
+                    <a href="hours.html">Hours</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="review.html">Review</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <figure>
+            <img src="https://images.unsplash.com/photo-1535632787350-4e68ef0ac584?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Fantastic Earrings" title="Fantastic Earrings!" width="1000"
+                height="667">
+            <figcaption class="offscreen">
+                Buy these Fantastic earrings.
+            </figcaption>
+        </figure>
+    </section>
+
+    <main class="main">
+        <article id="about" class="main__article about">
+            <h2>About <abbr title="Erika Jewellery Store">EJS</abbr></h2>
+            <p>
+                <abbr title="Erika Jewellery Store">EJS</abbr> was founded in <time datetime="2022">2024</time>. Our shop
+                was built from a <strong>love of Jewellery</strong> 💍✨💎. We hope our shop adds a unique and interesting
+                look to your Style.
+            </p>
+            <aside class="about__trivia">
+                <h3>Jewellery Trivia</h3>
+                <details>
+                    <summary>When did you discover your love for Jewellery?</summary>
+                    <p class="about__trivia-answer">
+                        I discovered my love for jewelry as a form of self-expression. Each piece I wear tells a story and allows me to showcase my personality and style.<time
+                            datetime="1905">2021</time>. (Source: <cite><a
+                                https://www.instagram.com/erika_stevens01?igsh=ZGUzMzM3NWJiOQ=="
+                                target="_blank">Erika Stevens</a></cite>)
+                    </p>
+                </details>
+            </aside>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="footerContainer">
+            <div class="socialIcons">
+                 <a href=""><i class="fa-brands fa-facebook"></i></a>
+                 
+                 <a href=""><i class="fa-brands fa-instagram"></i></a>
+                 
+                 <a href=""><i class="fa-brands fa-tiktok"></i></a>     
+            </div>
+            <div class="footerNav">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="hours.html">HOURS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="review.html">FEEDBACK</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>
+            <span class="nowrap">Copyright &copy; <time id="year"></time></span>
+            <span class="nowrap">Erika Jewellery Store</span>
+        </p>
+    </footer>
+</body>
+
+</html>
