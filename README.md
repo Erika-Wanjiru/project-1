@@ -1,3 +1,8 @@
+<style>
+ h1{
+  color: blue;
+ }
+</style>
 <h1>TITLE:</h1> 
 <h2> MY FIRST TRIAL WEB PAGE </h2>
 
