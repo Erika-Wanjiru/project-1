@@ -1,4 +1,4 @@
-TITLE: 
+<h1>TITLE:</h1> 
 MY FIRST TRIAL WEB PAGE
 
 Welcome to the GitHub repository for "My First Web Page". This project is a simple, yet elegant webpage designed to showcase my journey in web development. The project includes basic HTML, CSS, and JavaScript to create an aesthetically pleasing and functional webpage.
